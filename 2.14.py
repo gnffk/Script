@@ -9,5 +9,7 @@ s3 = ((x3-x2)**2+(y3-y2)**2)**0.5
 s = (s1+s2+s3)/2
 
 area = (s*(s-s1)*(s-s2)*(s-s3))**0.5
+area = int(area*10) / 10
 #round(area,1) -> 소수점 한자리 그자리로 바꾸는게 가능
-print("삼각형의 넓이는 ",format(area,".1f")," 입니다")
+#print("삼각형의 넓이는 ",format(area,".1f")," 입니다")
+print('삼각형의 넓이:', area)
