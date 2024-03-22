@@ -10,4 +10,5 @@ def judge(x,y):
     else:
         print("점은 삼각형 외부에 있습니다")
 
-ex()
+for i in range(2):
+    ex()
