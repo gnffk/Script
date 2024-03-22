@@ -19,4 +19,5 @@ def ex():
     number = eval(input("수를 입력하라"))
     isPalindrome(number)
 
-ex()
+for i in range(2):
+    ex()
